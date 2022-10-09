@@ -15,7 +15,9 @@
   color: black;
 
 }
-
+footer{
+  text-align: left;
+}
 /* grid */
 /* .grid{
   display: grid;
