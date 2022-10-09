@@ -1,2 +1,220 @@
+*{
+  margin: 20px;
+  font-family: 'Space Mono', monospace;
+}
+.skip a{
+  position: absolute;
+  top:-40px;
+  z-index: 1;
+  color: black;
+
+}
+.skip a:focus{
+  position: absolute;
+  top: 0;
+  color: black;
+
+}
+
+/* grid */
+/* .grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5,1fr);
+  grid-row-gap: 5px;
+	grid-column-gap: 5px;
+  padding: 20px;
+	/* justify-content: space-between;
+	justify-items: stretch;
+	align-items: center;
+	align-content: space-around; */
+
+
+/* nav */
+/* .grid header nav{
+  background-color: #ddd;
+  padding: 20px 0;
+  text-align: center;
+  grid-row: 1/span 1;
+  grid-column: 1/ -1;
+} */
+/* .navbar{
+  grid-row: 1/span 1;
+  grid-column: 1/ -1;
+  background-color: black;
+} */
+li {
+  float:left;
+} 
+li a{
+  display: block;
+  color: lightsalmon;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: bisque;
+  color: white;
+}
+
+ul {
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+a.current{
+  color: orangered;
+  background-color: orange;
+}
+
+/* main */
+.grid{
+ grid-template-columns: repeat(3,1fr);
+ grid-template-rows: repeat(5,1fr);
+ grid-gap: 5px;
+ max-width: 2000px;
+ max-height: 1000px;
+ align-content: center;
+ display: grid;
+ background-color: antiquewhite;
+ /* min-width: 1000px;
+ min-height: 1000px; */
+}
+/* h1 */
+.grid h1{
+  grid-column: 2/span 1;
+  grid-row: 1/ span 1;
+  align-self: center;
+  align-content: center;
+}
+/* paragraph */
+p {
+  font-size: medium;
+  text-align: justify;
+}
+.intro1 {
+  grid-column: 1 / -1;
+  grid-row: 1 / span 1;
+} 
+
+.intro2{
+  grid-row: 4/span 1;
+  grid-column: 1/-1;
+}
+
+.cvexperience{
+  grid-column: 2 / 5;
+  grid-row: 1/-1;
+}
+.winnerintro{
+  grid-column: 1/-1; 
+  grid-row: 2/span 1;
+}
+.jubenshaintro{
+  grid-column: 1/-1; 
+  grid-row: 4/span 1;
+}
+/* link*/
+a:hover{
+  color:orange;
+}
+/* img */
+
+
+.dailypic{
+  grid-column: 2/ span 1;
+  grid-row: 2/span 2;
+  align-items: center;
+  
+}
+
+img{
+  position: relative;
+  width: 200px;
+	height: 200px;
+  padding: 10px;
+  margin: 10px;
+	border: 5px dotted pink;
+ 
+}
+img:hover{
+  background-color: bisque;
+}
+.cvimg{
+  grid-column: 1/ span 1;
+  grid-row: 1/span 2;
+}
+.winner{
+  width:400px;
+  height: 300px;
+}
+.winnerpic{
+  grid-row: 3 / span 1;
+  grid-column: 2/span 1;
+}
+.jubenshapic{
+  grid-row: 5 / -1;
+  grid-column: 2/span 1;
+ 
+}
+.jubensha{
+  width: 400px;
+  height: 400px;
+}
+.a {
+  grid-column: 1/span 1;
+  grid-row: 2/ span 1
+}
+.b{
+  grid-column: 2/ span 1;
+  grid-row: 2/ span 1
+}
+.c{
+  grid-column: 3/ span 1;
+  grid-row: 2/ span 1
+}
+.d{
+  grid-column: 1/ span 1;
+  grid-row: 3/ span 1
+}
+.e{
+  grid-column: 2/ span 1;
+  grid-row: 3/ span 1
+}
+.f{
+  grid-column: 3/ span 1;
+  grid-row: 3/ span 1
+}
+.g{
+  grid-column: 1/ span 1;
+  grid-row: 4/ span 1
+}
+.h{
+  grid-column: 2/ span 1;
+  grid-row: 4/ span 1
+}
+.i{
+  grid-column: 3/ span 1;
+  grid-row: 4/ span 1
+}
+/* .toronto{
+  grid-column: 1/-1;
+  grid-row: 2/span 1;
+}
+.seoul{
+  grid-column: 1/-1;
+  grid-row: 3/ span 1;
+}
+.washington{
+  grid-row: 4/ span 1;
+  grid-column: 1/-1;
+} */
+
+
 
 

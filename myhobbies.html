@@ -7,6 +7,9 @@
 	<link rel="icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 	<title>Zhiang Zhang's website</title>
 </head>
 
@@ -16,33 +19,35 @@
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="myresume.html">Resume</a></li>
-				<li><a href="myhobbies.html">Hobby</a></li>
+				<li><a class='current' href="myhobbies.html">Hobby</a></li>
 				<li><a href="travel.html">Travel Experience</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<main>
-		<h1></h1>
-		<h2></h2>
-		<p>
-			I love listening to music, jubensha (a kind of murder mystery game in China )
+	<main class="grid">
+		<h1>My hobbies</h1>
+		<p class="winnerintro">
+				My favourite boy band is WINNER. They debuted in 2014, and released "Really Really", "Love me Love me",
+				and so on kpop songs. I am really into their compositions, enjoy listening to their songs, making me feel
+				energetic all the time.
+
 		</p>
-		<figure>
-			<img src="images/WINNER.png" width="500"/>
-			<figcaption>WINNER</figcaption>
-			<cite>https://en.wikipedia.org/wiki/Winner_(band)#/media/File:DE_MEDICOTEM_X_WINNER_%EB%A7%88%EC%8A%A4%ED%81%AC%ED%8C%A9_%EB%B8%94%EB%9E%99_CF.png</cite>
+		<figure class="winnerpic">
+			<img class="winner" src="images/WINNER.png" alt="WINNER" width="500"/>
+			<figcaption><a href="https://en.wikipedia.org/wiki/Winner_(band)#/media/File:DE_MEDICOTEM_X_WINNER_%EB%A7%88%EC%8A%A4%ED%81%AC%ED%8C%A9_%EB%B8%94%EB%9E%99_CF.png">WINNER Boy Band</a></figcaption>
 		</figure>
-		<p>
-			My favourite boy band is WINNER.
+		<p class="jubenshaintro">
+				I really enjoy playing jubensha game. I am a big fan of detective novels, so I really love playing a kind of murber
+				mystery games. In the game, you can learn very dramatic stories, and know things from different perspectives,
+				Also I run a jubensha shop for a month and earn a 2000 yuan profit. I am grateful for the experience, as I find
+				bussiness is definitely not an easy thing, you should take a lot of things into account.
 		</p>
-		<figure>
-			<img src="images/jubensha.jpg" width="500"/>
-			<figcaption>jubensha game</figcaption>
+
+		<figure class='jubenshapic'>
+			<img class='jubensha' src="images/jubensha.jpg" alt="jubensha" width="500"/>
+			<figcaption>Jubensha Game</figcaption>
 		</figure>
-		<p>
-			I really enjoy playing jubensha game. 
-		</p>
 	</main>
 
 	<footer>

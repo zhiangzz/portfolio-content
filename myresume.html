@@ -7,6 +7,9 @@
 	<link rel="icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 	<title>Zhiang Zhang's website</title>
 </head>
 
@@ -15,34 +18,36 @@
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="myresume.html">Resume</a></li>
+				<li><a class='current' href="myresume.html">Resume</a></li>
 				<li><a href="myhobbies.html">Hobby</a></li>
 				<li><a href="travel.html">Travel Experience</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<main>
-		<h1></h1>
-		<h2></h2>
-		<p>
-			Following is my Resume.
-		</p>
-		<figure>
-			<img src="images/CV.jpg" width="200"/>
+	<main class="grid">
+	
+		<figure class="cvimg">
+			<img src="images/CV.jpg" width="200" alt="Resume Image"/>
 		</figure>
-		<p>
-			Education Background
-		</p>
-		<p>
-			Intership Experience
-		</p>
-		<P>
-			Project Experience
-		</P>
-		<p>
-			Leadership Experience
-		</p>
+		<div class="cvexperience">
+			<h1>My Resume</h1>
+			<h2><b>Education Background</b></h2>
+			<p>University of Michigan School of Information (Ann Arbor, MI) 2021.08-2023.04</p>
+			<p>Master of Science in Information, focus in Data Science/Data Analytics</p>
+			<p>University of Michigan School for Environment and Sustainability (Ann Arbor, MI) 2020.08-2023.04</p>
+			<p>Master of Science, focus in Geospatial Data Science</p>
+			<p>Beijing Normal university (Beijing, China) 2016.09-2020.06</p>
+			<p>Bachelor of Science, Environmental Science</p>
+			<h2><b>Experience</b></h2>
+			<p>City of Lansing, Global Information Engagement Program Fellow (Lansing, US)</p>
+			<p>Transportation GHG Baseline for the Detroit 2030 District (Detroit, US)</p>
+			<p>Nanjing National Map Information Industry Co., Ltd., Intern (Nanjing, China)</p>
+			<h2><b>Course Project</b></h2>
+			<p>A Dashboard for Electric Vehicles Market</p>
+			<p>Kaggle Competition: Titanic - Machine Learning from Disaster</p>
+			<p>Movie Recommendation based on IMDB and Golden Globe Award Data</p>
+		</div>
 	</main>
 
 	<footer>

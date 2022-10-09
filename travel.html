@@ -7,63 +7,68 @@
 	<link rel="icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 	<title>Zhiang Zhang's website</title>
 </head>
 
 <body>
 	<header>
 		<nav>
-			<li><a href="index.html">Home</a></li>
-        	<li><a href="myresume.html">Resume</a></li>
-        	<li><a href="myhobbies.html">Hobby</a></li>
-        	<li><a href="travel.html">Travel Experience</a></li>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+        		<li><a href="myresume.html">Resume</a></li>
+        		<li><a href="myhobbies.html">Hobby</a></li>
+        		<li><a class='current' href="travel.html">Travel Experience</a></li>
+			</ul>
 		</nav>
 	</header>
 
-	<main>
-		<h1></h1>
-		<h2></h2>
-		<p>
-			I really love travelling, followings are pictures I took in travel.
-		</p>
-		<p> Summary of Toronto travel</p>
-		<figure>
-			<img src="images/UT.jpg" width="500"/>
+	<main class="grid">
+		<h1>My travelling pictures</h1>
+		<!-- <div class="toronto"> -->
+		<figure class="a">
+			<img src="images/UT.jpg" alt="Universtiy of Toronto 1" width="500"/>
 			<figcaption>University of Toronto</figcaption>
 		</figure>
-		<figure>
-			<img src="images/UT2.jpg" width="500"/>
+		<figure class="b">
+			<img src="images/UT2.jpg" alt="University of Toronto 2" width="500"/>
 			<figcaption>University of Toronto</figcaption>
 		</figure>
-		<figure>
-			<img src="images/FALL.jpg" width="500"/>
+		<figure class="c">
+			<img src="images/FALL.jpg" alt="Niagara Falls" width="500"/>
 			<figcaption>Niagara Falls</figcaption>
 		</figure>
-		<p> Summary of Seoul Travel</p>
-		<figure>
-			<img src="images/seoulstreets.jpg" width="500"/>
+		<!-- </div> -->
+		<!-- <div class="seoul"> -->
+		<figure class="d">
+			<img src="images/seoulstreets.jpg" alt="Streets in Seoul" width="500"/>
 			<figcaption>Streets in Seoul</figcaption>
 		</figure>
-			<img src="images/Gwanghwamun.jpg" width="500"/>
-			<figcaption>Gwanghwamun in Seoul</figcaption>
-		</figure>
-		<figure>
-			<img src="images/idolculture.jpg" width="500"/>
+		<figure class="e">
+			<img src="images/idolculture.jpg" alt="Idol Culture in Seoul" width="500"/>
 			<figcaption>Idol Culture in Seoul</figcaption>
 		</figure>
-		<p>Summary of Washington DC travel</p>
-		<figure>
-			<img src="images/WashingtonMonument.jpg" width="500"/>
+		<figure class="f">
+		<img src="images/Gwanghwamun.jpg" alt="Gwanghwamun in Seoul" width="500"/>
+		<figcaption>Gwanghwamun in Seoul</figcaption>
+		</figure>
+		<!-- </div> -->
+		<!-- <div class="washington"> -->
+		<figure class="g">
+			<img src="images/WashingtonMonument.jpg" alt="Washington Monument" width="500"/>
 			<figcaption>Washington Monument</figcaption>
 		</figure>
-		<figure>
-			<img src="images/whitehouse.jpg" width="500"/>
+		<figure class="h">
+			<img src="images/whitehouse.jpg" alt="White House" width="500"/>
 			<figcaption>White House</figcaption>
 		</figure>
-		<figure>
-			<img src="images/DCstreets.jpg" width="500"/>
+		<figure class="i">
+			<img src="images/DCstreets.jpg" alt="Streets in Washington DC" width="500"/>
 			<figcaption>Streets in Washington DC</figcaption>
 		</figure>
+		<!-- </div> -->
 	</main>
 
 	<footer>

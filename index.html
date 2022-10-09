@@ -7,36 +7,44 @@
 	<link rel="icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 	<title>Zhiang Zhang's website</title>
 </head>
 
 <body>
+	<div class="skip"><a href='#main'>Skip to Main Content</a></div>
 	<header>
-		<nav>
-			<li><a href="index.html">Home</a></li>
-        	<li><a href="myresume.html">Resume</a></li>
-        	<li><a href="myhobbies.html">Hobby</a></li>
-        	<li><a href="travel.html">Travel Experience</a></li>
+		<nav class="navbar">
+			<ul>
+				<li><a class='current' href="index.html">Home</a></li>
+        		<li><a href="myresume.html">Resume</a></li>
+        		<li><a href="myhobbies.html">Hobby</a></li>
+        		<li><a href="travel.html">Travel Experience</a></li>
+			</ul>
 		</nav>
 	</header>
 
-	<main>
-		<h1></h1>
-		<h2></h2>
+	<main class="grid">
+		<div class="intro1">
+		<h1>Introduction</h1>
 		<p>Hello, everyone, my name is Zhiang Zhang, and I am a student of University of
 				Michigan. I have two degrees, Geospatial data science and Data Science.  I am
 				seeking a full-time DA/SDE job, please be free to contact me if you want to work
 				with me!
 		</p>
-		<figure>
-			<img src="images/lifepicture.jpg" width="200"/>
+		</div>
+		<figure class="dailypic">
+			<img src="images/lifepicture.jpg" alt="my photo in daily life" width="200"/>
 			<figcaption>My picture</figcaption>
 		</figure>
-		<p>
+		<div class="intro2">
+			<p>
 			I am from China. In this website, you can know my CV, my hobbies and my resume.
-		</p>
+			</p>
+		</div>
 	</main>
-
 	<footer>
 		<p>Email: zhiangz@umich.edu</p>
 		&copy; 2022
