@@ -1,3 +1,4 @@
+
 *{
   margin: 20px;
   font-family: 'Space Mono', monospace;
@@ -204,18 +205,101 @@ img:hover{
   grid-column: 3/ span 1;
   grid-row: 4/ span 1
 }
-/* .toronto{
-  grid-column: 1/-1;
-  grid-row: 2/span 1;
+
+
+@media screen and (min-width: 700px) {
+  *{
+    margin: 20px;
+    font-family: 'Space Mono', monospace;
+  }
+  .fa-linkedin{
+    color:blue
+  }
+  @keyframes fadein {
+    from  {opacity: 0;    filter: alpha(opacity=40);}
+    to { opacity: 1;    filter:alpha(opacity=40)}
+  }
+  .container{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px repeat(4,1fr) 50px 50px;
+    max-height: 900px;
+    align-content: center;
+    display: grid;
+    background-color: antiquewhite;
+
+  }
+  .navbar{
+    grid-row: 1/span 1;
+    grid-column: 1/ -1;
+  }
+  footer{
+    grid-row: 7/span 1;
+    grid-column: 1/ -1;
+  }
+  .main{
+    grid-row: 2/span 4;
+    grid-column: 1/-1;
+  }
+  .main .winnerintro{
+    grid-row: 2/span 1;
+    grid-column: 1/-1;
+  }
+  .main .winnerpic{
+    grid-row:3/span 1;
+    grid-column:2/span 1;
+  }
+  .main .jubenshaintro{
+    grid-row: 4/span 1;
+    grid-column: 1/-1;
+  }
+  .main .jubenshapic{
+    grid-column: 5/span 1;
+    grid-column: 1/-1;
+  }
+  .winner{
+    width: 100px;
+    height:70px;
+  }
+  img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    border: 5px dotted pink;
+    animation-name: fadein;
+    animation-duration: 3s;
+  }
+  .jubensha{
+    width: 100px;
+    height: 100px;
+  }
+  aside{
+    grid-row:6/span 1;
+    grid-column:1/-1;
+  }
+  .gallery{
+    grid-column: 2/span 1;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    font-size: small;
+  }
+  .gallery img{
+    grid-column: 2/span 1;
+  }
+
 }
-.seoul{
-  grid-column: 1/-1;
-  grid-row: 3/ span 1;
+
+
+@media (prefers-reduced-motion) {
+  img{
+    animation: none;
 }
-.washington{
-  grid-row: 4/ span 1;
-  grid-column: 1/-1;
-} */
+  /* styles to apply if the user's settings are set to reduced motion */
+}
 
 
 
