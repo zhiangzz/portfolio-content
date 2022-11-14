@@ -90,7 +90,7 @@ nav li {
 } 
 nav li a{
   display: block;
-  color: red;
+  color: rgb(48, 25, 25);
   font-size: 20px;
   text-align: center;
   padding: 10px 20px;
@@ -100,7 +100,7 @@ nav li a{
 nav li a:hover{
   background-color:wheat;
   font-style: italic;
-  color:rgb(48, 25, 25);
+  /* color:rgb(48, 25, 25); */
 }
 
 nav ul {
