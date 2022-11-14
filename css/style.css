@@ -99,7 +99,8 @@ nav li a{
 
 nav li a:hover{
   background-color:wheat;
-  color:darkorange;
+  font-style: italic;
+  color:rgb(48, 25, 25);
 }
 
 nav ul {
