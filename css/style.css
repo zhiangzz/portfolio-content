@@ -90,7 +90,7 @@ nav li {
 } 
 nav li a{
   display: block;
-  color: orangered;
+  color: red;
   font-size: 20px;
   text-align: center;
   padding: 10px 20px;
@@ -98,8 +98,8 @@ nav li a{
 }
 
 nav li a:hover{
-  background-color: bisque;
-  color:gray;
+  background-color:wheat;
+  color:darkorange;
 }
 
 nav ul {
