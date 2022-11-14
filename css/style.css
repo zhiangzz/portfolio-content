@@ -7,9 +7,9 @@ p{
   text-align: left;
   line-height: normal;
 }
-@keyframes left{
-  0%   { left:0px; bottom:0px;}
-  50%  {left:0px; bottom:40px;}
+@keyframes right{
+  0%   { right:100px; bottom:0px;}
+  100%  {right:0px; bottom:0px;}
 }
 .skip a{
   position: absolute;
@@ -43,14 +43,11 @@ footer{
 aside{
   width: 40%;
   border: 5px dashed pink;
-  /* margin-left: 50%; */
-  /* margin-bottom: 50px; */
-  /* padding-right: .5rem;
-  margin-right: .5rem; */
+  height: 90%;
   background-color: lightgray;
-  /* bottom:30px; */
-  /* padding: 50%; */
-  /* margin: 20px; */
+  margin-left: 10%;
+  margin-top: 5%;
+
 }
 .flexwinner{
   display:flex;
@@ -102,7 +99,7 @@ nav li a{
 
 nav li a:hover{
   background-color: bisque;
-  color: white;
+  color:gray;
 }
 
 nav ul {
@@ -179,14 +176,13 @@ img{
 img:hover{
   background-color: bisque;
 }
-/* .cvimg{
-  grid-column: 1/ span 1;
-  grid-row: 1/span 2;
-} */
+.cvimg{
+  margin-left:40%;
+}
 .winner{
   width:400px;
   height: 300px;
-  animation-name: left;
+  animation-name: right;
   animation-duration: 4s;
 }
 /* .winnerpic{
@@ -215,8 +211,11 @@ img:hover{
 }
 h1{
   text-align: center;
+  font-weight: bold;
+  font-size: large;
 
 }
+
 /* .gallery .a{
   grid-column: 1/span 1;
   grid-row: 2/ span 1
@@ -317,9 +316,10 @@ h1{
   }
   aside{
     width:98%;
+    margin-left: 0;
   }
   .cvimg img{
-    margin-left: 30%;
+    margin-left: -5%;
     margin-right: 20%;
   }
   .gallery{
@@ -337,10 +337,7 @@ h1{
   .gallery img{
     margin-left:10%;
   }
-  #main{
-    /* background-color: aqua; */
-    background-image: url("../images/wallpaper.jpg")
-  }
+
   .intro1{
     background-color: antiquewhite;
     opacity: 0.9;
@@ -349,8 +346,17 @@ h1{
     background-color: antiquewhite;
     opacity: 0.9;
   }
-  h1{
+  /* h1{
     text-align: center;
+  } */
+  .winnerintro{
+    background-color: antiquewhite;
+    opacity: 0.7;
+    margin-top: 3%;
+  }
+  .jubenshaintro{
+    background-color: antiquewhite;
+    opacity: 0.7;
   }
   p{
     text-align: left;
@@ -359,6 +365,13 @@ h1{
   .flexwinner{
     display: flex;
     flex-direction: column;
+  }
+  main{
+    /* background-color: aqua; */
+    background-image: url("../images/wallpaper.jpg")
+  }
+  main h2{
+    font-weight: bold;
   }
 }
 
