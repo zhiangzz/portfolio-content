@@ -396,6 +396,9 @@ h1{
   img{
     animation: none;
 }
+  .winner{
+    animation: none;
+  }
   /* styles to apply if the user's settings are set to reduced motion */
 }
 
