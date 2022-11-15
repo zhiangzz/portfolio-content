@@ -59,6 +59,10 @@ aside{
 .footer{
   grid-row: 3/span 1;
 }
+main{
+  /* background-color: aqua; */
+  background-image: url("../images/background.jpg")
+}
 /* grid */
 /* .grid{
   display: grid;
@@ -219,6 +223,31 @@ h1{
   font-size: large;
 
 }
+.intro1{
+  background-color: antiquewhite;
+  opacity: 0.9;
+}
+.intro2{
+  background-color: antiquewhite;
+  opacity: 0.9;
+}
+/* h1{
+  text-align: center;
+} */
+.winnerintro{
+  background-color: antiquewhite;
+  opacity: 0.7;
+  margin-top: 3%;
+}
+.jubenshaintro{
+  background-color: antiquewhite;
+  opacity: 0.7;
+}
+.gallery{
+  background-color: antiquewhite;
+  opacity: 0.9;
+  margin:10px;
+}
 
 /* .gallery .a{
   grid-column: 1/span 1;
@@ -344,26 +373,7 @@ h1{
     margin-left:10%;
   }
 
-  .intro1{
-    background-color: antiquewhite;
-    opacity: 0.9;
-  }
-  .intro2{
-    background-color: antiquewhite;
-    opacity: 0.9;
-  }
-  /* h1{
-    text-align: center;
-  } */
-  .winnerintro{
-    background-color: antiquewhite;
-    opacity: 0.7;
-    margin-top: 3%;
-  }
-  .jubenshaintro{
-    background-color: antiquewhite;
-    opacity: 0.7;
-  }
+
   p{
     text-align: left;
     line-height: normal;
@@ -372,10 +382,9 @@ h1{
     display: flex;
     flex-direction: column;
   }
-  main{
-    /* background-color: aqua; */
+  /* main{
     background-image: url("../images/wallpaper.jpg")
-  }
+  } */
   main h2{
     font-weight: bold;
   }
